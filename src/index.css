@@ -1,0 +1,9 @@
+.description {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Approximate 1.5 lines by limiting to 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2em; /* Adjust as necessary */
+    height: 2.4em; /* Adjust to get close to 1.5 lines */
+  }
